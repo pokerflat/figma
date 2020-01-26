@@ -1,0 +1,261 @@
+$bg_clr_btn:#498588;
+
+html {
+	box-sizing: border-box;
+	max-width: 100%;
+}
+* {
+	box-sizing: inherit;
+	&::before {
+		box-sizing: inherit;
+	}
+	&::after {
+		box-sizing: inherit;
+	}
+}
+body {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1,2;
+	color: black;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+ul {
+	list-style-type: none;
+}
+.wrapper_main {
+	background: url(../img/intro-bg.jpg) no-repeat center;
+	background-size: cover;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.wrapper {
+	max-width: 1110px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.wrapper-full {
+	max-width: 1110px;
+	margin: 0 auto;
+}
+.section-title {
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 42px;
+	position: relative;
+	padding-bottom: 10px;
+	&::after {
+		display: block;
+		content: '';
+		width: 253px;
+		height: 3px;
+		background-color: #006DFE;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+}
+.intro {
+	min-height: 100vh;
+	background-size: cover;
+	padding-top: 263px;
+	padding-bottom: 223px;
+}
+.intro_title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: white;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.intro_subtitle {
+	color: white;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 64px;
+	margin-bottom: 63px;
+	text-align: center;
+	margin-left: 35px;
+	margin-right: 35px;
+}
+.intro-form_wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 105px;
+}
+.intro-form_submit {
+	width: 200px;
+	height: 45px;
+	padding: 14px 36px;
+	background-color: $bg_clr_btn;
+	border: 0;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 20px;
+	color: white;
+	text-align: center;
+	box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+	border-radius: 30px;
+	&:hover {
+		background: #043a81;
+	}
+	&:active {
+		background: #043a81;
+	}
+}
+.benefits {
+	margin-bottom: 131px;
+	max-width: 100%;
+}
+.benefits_wrap {
+	max-width: 1110px;
+	background-color: white;
+	margin: 0 auto;
+	position: relative;
+}
+.benefits_top {
+	margin-left: 150px;
+	margin-right: 150px;
+}
+.benefits_cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 55px;
+	padding: 0;
+	width: 100%;
+}
+.benefits_card {
+	grid-column: span 1;
+	margin-bottom: 55px;
+	display: flex;
+}
+.benefits_card-pic {
+	width: 110px;
+	margin-bottom: 37px;
+}
+.benefits_info {
+	width: 222px;
+}
+.benefits_card-thumb {
+	display: block;
+}
+.benefits_title {
+	width: 100%;
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 42px;
+	padding: 93px 100px 88px 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translateY(-100%);
+	background-color: white;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 55px;
+}
+.benefits_create {
+	margin-top: 110px;
+	margin-bottom: 50px;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 53px;
+	text-align: center;
+}
+.benefits_description {
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+	color: #999999;
+	margin-bottom: 70px;
+}
+.benefits_card-title {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 12px;
+	color: black;
+}
+.benefits_card-desc {
+	font-size: 14px;
+	line-height: 22px;
+	margin-bottom: 39px;
+	color: #999999;
+}
+ 
+	.ourprojects_caption {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 36px;
+	}
+
+.ourprojects_cards {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 10px;
+}
+.ourprojects_card {
+	position: relative;
+	overflow: hidden;
+	padding-left: 50px;
+	padding-bottom: 50px;
+	&:hover {
+		transform: scale(1.05);
+	}
+}
+.places_card-pic {
+	transform: scale(1.05);
+}
+.ourprojects_card-pic {
+	object-fit: cover;
+	transition: .15s all;
+	width: 104px;
+}
+.standarts {
+	margin-bottom: 139px;
+	background-color: #F6F6F8;
+}
+.standarts_standart {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 0 121px;
+	align-items: center;
+}
+.standart_title {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 53px;
+	margin-bottom: 40px;
+	margin-top: 152px;
+	color: #323232;
+}
+.standart_desc {
+	font-size: 16px;
+	line-height: 25px;
+	margin-bottom: 30px;
+	color: #999999;
+}
+.standart_pic {
+	max-width: 500px;
+	padding-top: 100px;
+	padding-bottom: 90px;
+}
+.standart_more {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	text-decoration-line: underline;
+	color: $bg_clr_btn;
+}
+.standart_line {
+	border: 1px solid #E0E0E0;
+	margin-bottom: 70px;
+}

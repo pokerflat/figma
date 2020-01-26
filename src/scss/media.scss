@@ -1,0 +1,69 @@
+@media screen and (max-width: 767px) {
+	.wrapper-full {
+		padding: 0 15px;
+	}
+	.intro {
+		padding-top: 125px;
+	}
+	.intro_title {
+		font-size: 32px;
+		line-height: 48px;
+	}
+	.intro_subtitle {
+		font-size: 14px;
+	}
+	.benefits {
+		margin-bottom: 36px;
+	}
+	.benefits_wrap {
+		padding: 0 15px;
+	}
+	.benefits_top {
+		margin: 0;
+	}
+	.benefits_card {
+		-ms-grid-column-span: 3;
+		grid-column: span 3;
+		margin-bottom: 40px;
+	}
+	.benefits_card-pic {
+		margin-bottom: 20px;
+	}
+	.benefits_card-title {
+		margin-bottom: 12px;
+	}
+	.benefits_card-desc {
+		margin-bottom: 20px;
+	}
+	.ourprojects_cards {
+		grid-template-columns: repeat(3, 1fr);
+		grid-column: span 3;
+		margin-bottom: 40px;
+	}
+	.ourprojects_card {
+		padding: 0;
+	}
+	.standarts {
+		margin-bottom: 76px;
+	}
+	.standart_pic {
+		-ms-grid-column-span: 2;
+		grid-column: span 2;
+		margin-bottom: 12px;
+	}
+	.standart_info {
+		-ms-grid-column-span: 2;
+		grid-column: span 2;
+	}
+	.standarts_standart {
+		margin-bottom: 50px;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 0;
+		grid-column: span 1;
+		align-items: center;
+	}
+	.standart_title {
+		margin-top: 30px;
+	}
+}
